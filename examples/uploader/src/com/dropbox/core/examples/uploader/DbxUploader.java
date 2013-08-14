@@ -22,8 +22,8 @@ import com.dropbox.core.json.JsonReader.FileLoadException;
 
 /**
  * A simple utility class for dropbox uploading. 
- * Use the {@link #DbxUploader(String) Auth file constructor} for the first time,
- * and the {@link #DbxUploader(String, boolean) Auth token file constructor} for any subsequent calls
+ * Use the {@link #DbxUploader(String, String) Auth file constructor} for the first time,
+ * and the {@link #DbxUploader(String) Auth token file constructor} for any subsequent calls
  *
  */
 public class DbxUploader {

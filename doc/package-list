@@ -1,0 +1,8 @@
+com.dropbox.core
+com.dropbox.core.examples.account_info
+com.dropbox.core.examples.authorize
+com.dropbox.core.examples.uploader
+com.dropbox.core.examples.web_file_browser
+com.dropbox.core.http
+com.dropbox.core.json
+com.dropbox.core.util
