@@ -211,8 +211,8 @@ public class DbxUploader {
 
 	private static void printUsage() {
 		PrintStream out = System.out;
-        out.println("Usage: java com.dropbox.core.examples.uploader.DbxUploader <upload-file-src> <upload-file-dest> <app-info-file> <auth-file-output>");
-        out.println("Usage: java com.dropbox.core.examples.uploader.DbxUploader <upload-file-src> <upload-file-dest> <auth-token-file> ");
+        out.println("Usage: DbxUploader <upload-file-src> <upload-file-dest> <app-info-file> <auth-file-output>");
+        out.println("Usage: DbxUploader <upload-file-src> <upload-file-dest> <auth-token-file> ");
         out.println("");
         out.println("<app-info-file>: a JSON file with information about your API app.  Example:");
         out.println("");
